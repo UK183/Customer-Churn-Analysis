@@ -9,7 +9,8 @@ This project covers data cleaning, feature engineering, model development, perfo
 
 - **Objective:** Predict whether a customer will churn (0/1) based on demographics, billing patterns, and service usage.
 - **Dataset:** Telco Customer Churn dataset.
-- **Outcome:** 
+- **Outcome:**
+  
 ✔️Achieved strong churn prediction accuracy using XGBoost (~82%).
 
 ✔️Identified key churn drivers such as contract type, monthly charges, tenure, and number of services.
@@ -23,6 +24,24 @@ This project covers data cleaning, feature engineering, model development, perfo
 ✔️Improved data quality by handling missing values and converting inconsistent fields like TotalCharges.
 
 ✔️Enabled business decisions by highlighting high-risk customers and improving retention strategies.
+
+---
+
+### 📊 Dashboard Insights (Power BI)
+
+✔️Total customers analyzed: 7,030 with an average monthly cost of $64.80.
+
+✔️73.42% customers stayed, while 26.58% churned — showing moderate churn risk.
+
+✔️Fiber Optic users show the highest churn, indicating dissatisfaction with internet quality or cost.
+
+✔️Customers without Tech Support churn significantly more, proving support availability impacts retention.
+
+✔️Month-to-month contract customers churn the most, confirming contract length strongly influences loyalty.
+
+✔️Security features (OnlineSecurity & OnlineBackup) show a clear trend: customers lacking these services churn at a much higher rate.
+
+✔️Churn is comparatively higher across both genders, roughly similar between male and female customers.
 
 ---
 
@@ -60,40 +79,35 @@ This project covers data cleaning, feature engineering, model development, perfo
 ## 📦 Project Structure
 
 Customer-Churn-Analysis/
-│
-├── model/
 
-│ └── xgb_churn_pipeline.joblib
-│
+                       ├── Analysis using PowerBI/PowerBi file
 
-├── notebooks/
+                       ├── outputs/
 
-│ ├── Data_Cleaning.ipynb
+                                  └── output1.png
 
-│ ├── EDA_and_Feature_Engineering.ipynb
+                                  └── output2.png
 
-│ └── Model_Training.ipynb
-│
-├── app/
 
-│ ├── app.py
+                       ├── app/
 
-│ ├── templates/
+                              └── app.py
 
-│ │ └── index.html
+                              └── templates/
 
-│ └── static/
+                                           └── index.html
 
-│ └── style.css
+                              └── static/
 
-│
-├── requirements.txt
+                                        └── style.css
 
-├── README.md
+                              └── requirements.txt
 
-└── dataset/
+                       ├──Customer Churn Analysis.ipynb
 
-└── telco_customer_churn.csv
+                       ├── README.md
+
+                       └── telco_customer_churn.csv
 
 ---
 
