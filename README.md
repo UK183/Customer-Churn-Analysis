@@ -1,4 +1,12 @@
 # 📊  Customer Churn Prediction — Telco Dataset
+<div align="center">
+  <img src="outputs/output1.PNG" width="45%"/>
+  <img src="outputs/output2.PNG" width="46%"/>
+</div>
+<div align="center">
+  <img src="Analysis using PowerBI/Analysis Dashboard-PowerBI.PNG" width="90%"/>
+
+</div>
 
 An end-to-end Machine Learning solution acieving 82% accuracy to predict customer churn for a telecom company.  
 This project covers data cleaning, feature engineering, model development, performance evaluation, and a deployment-ready ML pipeline.
